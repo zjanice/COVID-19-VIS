@@ -1,64 +1,208 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="cover.css">
+    <head>
 
-    <title>A Database of COVID-19 Visualizations</title>
-  </head>
-  <body> 
+		<!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>CODVIC</title>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
+		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
 
+        <!-- Favicon and touch icons -->
+       <!--  <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"> -->
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-<!--           <div class="icon">
-            <img src="img/covid19.svg" alt="icon" class="img-thumbnail">
-          </div> -->
-          <!-- <h1 class="masthead-brand">A Database of COVID-19 Visualizations</h1> -->
-          <!-- <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">Contribute</a>
-            <a class="nav-link" href="#contact">Contact</a>
-          </nav> -->
+    </head>
+
+    <body>
+
+		<!-- Top menu -->
+		<nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Welcome to CODVIC</a>
+			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarNav">
+			        <ul class="navbar-nav ml-auto">
+			            <li class="nav-item">
+			                <a class="nav-link scroll-link" href="#top-content">About</a>
+			            </li>
+			            <li class="nav-item">
+			                <a class="nav-link scroll-link" href="#services">Contribute & Access</a>
+			            </li>
+                  <!-- <li class="nav-item">
+                      <a class="nav-link scroll-link" href="#portfolio">Access</a>
+                  </li> -->
+			            <li class="nav-item">
+			                <a class="nav-link scroll-link" href="#about-us">Acknowledgements</a>
+			            </li>
+			        </ul>
+			    </div>
+		    </div>
+		</nav>
+
+        <!-- Top content -->
+        <div class="top-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text">
+                        <h1 class="wow fadeInLeftBig">Welcome to CODVIC </br> 
+                          <u>C</u>OVID-19 <u>O</u>nline <u>D</u>ata  <u>VI</u>sualization <u>C</u>ollection</h1>
+                        <div class="description wow fadeInLeftBig">
+                        	<h4>
+                         	  A Database of COVID-19 Visualizations
+                        	</h4>
+                        </div>
+                        <div>
+                          <br><br>
+                         <h4 class="text-left"> What We Are Creating</h4>
+                         <p class="text-left">
+                          We are creating a database of data visualizations examples related in any way to the COVID-19 Pandemic, from all parts of the world published on the Internet online. The data collection is being designed to share with anyone interested in using this for teaching and research. <br>
+
+                          We are collecting <b>ANY</b> web page that contains a data visualization of <b>ANY</b> kind meant to explain <b>ANY</b> aspect of the COVID-19 Pandemic. <br>
+                          Bar charts, line charts, maps, bubble and scatter plots, timelines, graphic simulations, infographic illustrations <br>
+                          <b>ANY</b> example of visualizing epidemic-pandemic data -- past, current or projected <br>
+                          <b>ANY</b> visualization concerning how the pandemic is affecting ANY part of the population or business sector <br>
+                          <b>ANY</b> visual explanation or instructions created in response to the pandemic: how to behave, how to prevent spreading the infection, etc. <br> 
+                          <b>ANY</b> visualization of local information -- inside a county, region, department, city, institution.
+                         </p>
+                        </div> 
+                        
+                        <div class="col-md-10">
+                          <img src="assets/img/chart.svg" class="img-fluid" alt="Responsive image">
+                          <figcaption class="figure-caption">We are collecting any kinds of COVID-19 data visualizations.</figcaption>
+                        </div>
+                    </div>
+                </div>
+            </div>            
         </div>
-      </header>
+        
+        <!-- Services -->
+        <div class="services-container section-container">
+	        <div class="container">
+	            <div class="row">
+	              <div class="col services section-description wow fadeIn">
+                      <h4 class="text-left" style="color:black">How to Contribute to the CODVIC Database</h4>
+                      <!-- <div class="text-left divider-1 wow fadeInUp"><span></span></div> -->
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-10 services-box wow fadeInUp"> 
+                    Please help us by sending us examples you find. We are interested in ANY page or post that can be accessed through a web browser containing a data visualization of ANY kind intended to explain ANY aspect of the COVID-19 pandemic, in ANY language. <br/>
+                    The only *required* information is a valid URL. Include the optional information will speed up the coding process. <br/>
+                    Please use <a href="https://bit.ly/COVID19VIS" target="_blank" class="font-weight-bold" style="color:#03a9f4">this Google form</a> to add your contribution to the collection.
+                  </div>  
+             </div> 
 
-      <main role="main" class="inner">
-        <h1 class="cover-heading" style="padding-bottom: 2em">A Database of COVID-19 Visualizations</h1>
-        <p class="lead">
-          We are creating a database of examples published online from all parts of the world.   <br/> 
-          The resulted collection of COVID-19 visualizations will be shared with anyone who want to use them for teaching and research. </p>
-        </p>
+             <div class="row">
+                <div class="col services section-description wow fadeIn">
+                      <h4 class="text-left" style="color:black">How to Access the CODVIC database</h4>
+                      <!-- <div class="text-left divider-1 wow fadeInUp"><span></span></div> -->
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-10 services-box wow fadeInUp"> 
+                   The collection is being managed in a spreadsheet format. We are adding examples on a daily basis. Coding the attributes of hundreds of examples is also an ongoing process. Upon request, we are happy to share a spreadsheet copy of the collection for anyone interested in using this for teaching and research. 
+                  </div>  
 
-      </br>
-        <h2>How to Contribute</h2>
-        <p class="lead">
-          We are interested in <span class="cover-heading">ANY</span> web page that contains a data visualization of <b>ANY</b> kind as long as the intention is to explain <b>ANY</b> aspect of the COVID-19 pandemic, in <b>ANY</b> language. </br/>
-          Please add your entry via  <a href="https://bit.ly/COVID19VIS" target="_blank" style="color:orange">this Google form</a>.
-        </p> 
-
-
-      </main>
-
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-         <p class="text-right">This project was initiated by <a href="https://camd.northeastern.edu/faculty/paul-kahn/">Paul Kahn</a> and <a href="https://zjanice.github.io/">Yixuan (Janice) Zhang</a> @ Northeastern University</p>
+                  <div class="col-md-10">
+                    <img src="assets/img/sheets.png" class="img-fluid" alt="Responsive image">
+                    <figcaption class="figure-caption">A example screenshot of current stage of CODVIC database.</figcaption>
+                  </div>
+             </div> 
+	        </div> 
         </div>
-      </footer>
-    </div>
 
-  </body>
+
+        <!-- access -->
+<!--         <div class="portfolio-container section-container">
+          <div class="container">
+              <div class="row">
+                <div class="col services section-description wow fadeIn">
+                        <h4 class="text-left" style="color:black">How to Access the CODVIC Database</h4> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 services-box wow fadeInUp"> 
+                      The collection is being managed in a spreadsheet format. We are adding examples on a daily basis. Coding the attributes of hundreds of examples is also an ongoing process. We are happy to share a spreadsheet copy of the collection for anyone interested in using this teaching and research.
+                </div>  
+          </div>
+        </div> -->
+
+        <!-- About us -->
+        <div class="about-us-container section-container section-container-gray-bg">
+	        <div class="container">
+	            <div class="row">
+	            	<div class="col-12 col-lg-12 about-us-box wow fadeInLeft">
+	                    <div class="about-us-box-text"> 
+	                    	<h3>Acknowledgements</h3>
+	                    	<p class="medium-paragraph">
+	                    	Paul Kahn and Janice Zhang would like to thank all the people who have sent us contributions: <br/>
+                        Arushi Singh, Andreas Schneider, Andy Krackov, Catherine Plaisant, Chihiro Hosoe, David Bishop, David Bumbeishvili, Eric Reiss, Ewa Lenk, Irene Rietschel, Jack Lenk, Joep Paemen, Karim Chaibi, Kita Kaczmarek, Lewis Chou, Lilly Diaz, Liuhuaying Yang, Lorenzo Scarpelli, M. Natsagbadam, Magga Dora Ragnarsdottir, Matteo Riva, Matthias Mueller-Prove, Max Spielmann, Megan Danielson, Melanie Mazanec, Mustafa Saifee, Nuno Correia, Rupesh Vyas, Sergelen Tsogt-Ochir, Susan Hazan, Tarun Deep Chhabra, Zeynep Ozturk.  
+	                    	</p>
+	                    	 
+	                    </div>
+	                </div>
+	                <!-- <div class="col-12 col-lg-5 about-us-box wow fadeInUp">
+	                	<div class="about-us-box-img">
+	                    	<img src="assets/img/about/1.jpg" alt="about" data-at2x="assets/img/about/1.jpg">
+	                    </div>
+	                </div> -->
+	            </div>
+	        </div>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer>
+	        <div class="container">
+	        	<div class="row">
+                    <div class="col-md-10 footer-left">
+                    	<p>
+                        CODVIC is an independent project created and run by <a href="https://camd.northeastern.edu/faculty/paul-kahn/">Paul Kahn</a> 
+                        and <a href="https://zjanice.github.io/">Yixuan (Janice) Zhang</a> @ Northeastern University. 
+                      </p>
+                    </div>
+                    
+                   <!--  <div class="col-md-6 offset-md-1 footer-right">
+                    	<a href="#"><i class="fab fa-facebook-f"></i></a>
+          						<a href="#"><i class="fab fa-dribbble"></i></a>
+          						<a href="#"><i class="fab fa-twitter"></i></a>
+          						<a href="#"><i class="fab fa-instagram"></i></a>
+          						<a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div> -->
+                </div>
+               
+	        </div>
+        </footer>
+
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- <script src="assets/js/jquery.backstretch.min.js"></script> -->
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+    </body>
+
 </html>
-
