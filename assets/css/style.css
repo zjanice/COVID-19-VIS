@@ -84,9 +84,9 @@ img { max-width: 100%; }
 	display: inline-block;
 	height: 50px;
 	margin: 0 5px;
-	padding: 0 28px;
-	background: #9b59b6;
-	background: rgba(155, 89, 182, 0.7);
+	padding: 0 15px;
+	background: #61ACD2;
+	/*background: rgba(155, 89, 182, 0.7);*/
 	border: 0;
 	font-size: 15px;
     font-weight: 600;
@@ -98,8 +98,8 @@ img { max-width: 100%; }
 .btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active, .btn-link-1:active:focus,
 .btn-link-1.btn-primary:not(:disabled):not(.disabled):active,
 .btn-link-1.btn-primary:not(:disabled):not(.disabled):active:focus {
-	background: #9b59b6;
-	background: rgba(155, 89, 182, 0.9);
+	background: #3DA3D7;
+	/*background: rgba(155, 89, 182, 0.9);*/
 	outline: 0;
 	color: #fff;
 	box-shadow: none;
@@ -109,9 +109,9 @@ img { max-width: 100%; }
 	display: inline-block;
 	height: 50px;
 	margin: 0 5px;
-	padding: 0 28px;
-	background: #333;
-	background: rgba(0, 0, 0, 0.2);
+	padding: 0 15px;
+	background: #F4A026;
+	/*background: rgba(155, 89, 182, 0.7);*/
 	border: 0;
 	font-size: 15px;
     font-weight: 600;
@@ -123,12 +123,16 @@ img { max-width: 100%; }
 .btn-link-2:hover, .btn-link-2:focus, .btn-link-2:active, .btn-link-2:active:focus,
 .btn-link-2.btn-primary:not(:disabled):not(.disabled):active,
 .btn-link-2.btn-primary:not(:disabled):not(.disabled):active:focus {
-	background: #333; background: rgba(0, 0, 0, 0.4); outline: 0; color: #fff; box-shadow: none;
+	background: #F89300;
+	/*background: rgba(155, 89, 182, 0.9);*/
+	outline: 0;
+	color: #fff;
+	box-shadow: none;
 }
 
 .btn-link-3 {
 	display: inline-block;
-	height: 50px;
+	height: 5s0px;
 	margin: 0 5px;
 	padding: 0 28px;
 	background: none;
