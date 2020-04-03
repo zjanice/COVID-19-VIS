@@ -82,7 +82,7 @@ img { max-width: 100%; }
 
 .btn-link-1 {
 	display: inline-block;
-	height: 50px;
+	height: 35px;
 	margin: 0 5px;
 	padding: 0 15px;
 	background: #61ACD2;
@@ -90,7 +90,7 @@ img { max-width: 100%; }
 	border: 0;
 	font-size: 15px;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 35px;
     color: #fff;
     border-radius: 4px;
     transition: all .3s;
@@ -107,7 +107,7 @@ img { max-width: 100%; }
 
 .btn-link-2 {
 	display: inline-block;
-	height: 50px;
+	height: 35px;
 	margin: 0 5px;
 	padding: 0 15px;
 	background: #F4A026;
@@ -115,7 +115,7 @@ img { max-width: 100%; }
 	border: 0;
 	font-size: 15px;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 35px;
     color: #fff;
     border-radius: 4px;
     transition: all .3s;
