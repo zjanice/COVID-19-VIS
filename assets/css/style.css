@@ -184,8 +184,8 @@ img { max-width: 100%; }
 .navbar-expand-md .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; }
 
 .navbar-brand {
-	width: 136px;
-	/*background: url(../img/logo.png) left center no-repeat;*/
+	width: 86px; 
+	/*background: url(../img/logo.svg) left center no-repeat !important;*/
 	border: 0;
 	text-indent: -99999px;
 }
