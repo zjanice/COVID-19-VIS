@@ -194,7 +194,7 @@ img { max-width: 100%; }
 /***** Top content *****/
 
 .top-content {
-    padding: 100px 0; 
+    padding-top: 100px; 
 }
 
 .top-content .text {
@@ -232,7 +232,7 @@ img { max-width: 100%; }
 /***** Services *****/
 
 .services-box {
-	padding-top: 30px;
+	/*padding-top: 30px;*/
 	text-align: left;
 }
 
@@ -435,7 +435,7 @@ img { max-width: 100%; }
 /***** Footer *****/
 
 footer {
-	padding: 40px 0 0 0;
+	padding: 10px 0 0 0;
 	background: #444;
 	color: #aaa;
 	text-align: left;
@@ -456,7 +456,7 @@ footer {
 .footer-right a:hover, .footer-right a:focus { color: #eee; }
 
 .footer-bottom {
-	padding-bottom: 25px;
+	/*padding-bottom: 25px;*/
 	text-align: center;
 }
 
